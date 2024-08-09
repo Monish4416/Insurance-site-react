@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Insurance-site-react/static/css/main.7ed3e4d2.css",
+    "main.js": "/Insurance-site-react/static/js/main.b4d011ce.js",
+    "static/media/back1.png": "/Insurance-site-react/static/media/back1.f0b259bd371006a30d2b.png",
+    "static/media/video-img.jpg": "/Insurance-site-react/static/media/video-img.d31fb0fe21251e6cced3.jpg",
+    "index.html": "/Insurance-site-react/index.html",
+    "main.7ed3e4d2.css.map": "/Insurance-site-react/static/css/main.7ed3e4d2.css.map",
+    "main.b4d011ce.js.map": "/Insurance-site-react/static/js/main.b4d011ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed3e4d2.css",
+    "static/js/main.b4d011ce.js"
+  ]
+}
