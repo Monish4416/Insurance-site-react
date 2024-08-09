@@ -1,0 +1,176 @@
+:root{
+    --back--dark-:#151449;
+    --back--light-:#31abfc;
+}
+
+
+
+.head{
+    background-color:var(--back--dark-) ;
+    height: 400px;
+}
+.head section h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 160px;
+    font-weight: 700;
+    text-align: center;
+}
+.about{
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 100px;
+}
+
+.service1{
+    background-color: white;
+}
+.service1 .container .row1{
+    color: var(--back--dark-);
+}
+.insurance .container{
+    display: flex;
+    gap: 50px;
+}
+.insurance{
+    margin-top: 100px;
+}
+.insurance .container .row2 .up{
+    color: var(--back--light-);
+}
+.insurance .container .row2 h1{
+    color: var(--back--dark-);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.insurance .container .row2 p{
+    color: gray;
+}
+.insurance .container .row2 button{
+    background-color: var(--back--light-);
+    color: white;
+}
+.contact{
+    margin-top: 100px;
+}
+.in-footer{
+    margin-top: 10px;
+}
+
+/* contact  */
+/* From Uiverse.io by ClawHack1 */ 
+
+.contactus{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-form label {
+    color:var(--back--dark-);
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: var(--back--light-);
+    font-weight: 700;
+    ;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    width: 200px;
+  }
+  
+  .contact-form input{
+  padding: 10px;
+  border: 1px dotted;
+  border-color: var(--back--dark-);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px dotted;
+    border-color: var(--back--dark-);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--back--light-);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: var(--back--light-);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+@media (max-width:1200px){
+    .insurance .container{
+       flex-wrap: wrap;
+        gap: 50px;
+    }
+    .contactus{
+        flex-wrap: wrap;
+    }
+    .contactus .contact-form{
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .contactus .map{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .contactus .map iframe{
+        height: 300px;
+        width: 100%;
+    }
+}
+@media (max-width:990px){
+    .insurance .container{
+     flex: 0 0 100%;
+     max-width: 100%;
+    }
+    .insurance .container .row1 img{
+        display: none;
+    }
+}
